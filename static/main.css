@@ -46,8 +46,8 @@ select {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box; /* Ensure padding is included in width */
-    margin-top: 4px; /* Add some spacing between inputs */
+    box-sizing: border-box; 
+    margin-top: 4px; 
 }
 
 input[type="submit"],
