@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ExpenseTracker</title>
+    <link rel="icon" href="D:\Mern_Stack\Expencce_Tracker\static\img\logo.png">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+    <h1>Expense Data</h1> <!-- Corrected the spelling of "Expense" -->
+    <div class="container">
+        <div class="box">
+            <center>
+                <form>
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td>
+                                <select>
+                                    <option>Salary</option>
+                                    <option>Saving</option>
+                                    <option>Investment</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Description</td>
+                            <td><input type="text" placeholder="Note"></td>
+                        </tr>
+                        <tr>
+                            <td>Date</td>
+                            <td><input type="date"></td>
+                        </tr>
+                        <tr>
+                            <td>Amount</td>
+                            <td><input type="number"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"> <!-- Corrected the colspan and added align="center" -->
+                                <input type="submit"> <!-- Corrected the spelling of "submit" -->
+                                <input type="reset"> <!-- Corrected the spelling of "reset" -->
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </center>
+        </div>
+    </div>
 </body>
 </html>
